@@ -1,0 +1,19 @@
+.project_container {
+  padding-top: 100px;
+  background-color: #171511;
+  color: #F2E8DA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.title > h2 {
+  font-size: calc(50px + 2vw);
+  padding: 20px;
+}
+.projects > *{
+  padding: 20px;
+}
+.project_container > * {
+  z-index: 1;
+}

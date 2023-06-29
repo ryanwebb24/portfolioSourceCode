@@ -1,0 +1,28 @@
+.right_title {
+  padding: 10px;
+  border-bottom: solid #AC886F;
+  text-align: center;
+}
+.right_container {
+  padding: 20px;
+}
+.item {
+  padding: 10px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item > * {
+  text-align: center;
+}
+.btn {
+  border: none;
+  padding: 10px;
+  background-color: #BDA58A;
+  border-radius: 2px;
+}
+.btn_link {
+  text-decoration: none;
+  color: #F2E8DA;
+}

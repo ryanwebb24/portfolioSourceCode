@@ -1,0 +1,52 @@
+#logo {
+  width: 120px;
+}
+.container-fluid {
+  margin-top: -8px;
+  padding-top: 8px;
+}
+.header-scroll-in, .hamburger-open {
+  background-color: #1a1713;
+  -webkit-transition: background-color 1s;
+  -moz-transition:    background-color 1s;
+  -ms-transition:     background-color 1s;
+  -o-transition:      background-color 1s;
+  transition:         background-color 1s;
+}
+.header-scroll-out, .hamburger-close {
+  background-color: transparent;
+  -webkit-transition: background-color 1s;
+  -moz-transition:    background-color 1s;
+  -ms-transition:     background-color 1s;
+  -o-transition:      background-color 1s;
+  transition:         background-color 1s;
+}
+.nav-link {
+  color: #F2E8DA;
+}
+.navbar-toggler-icon {
+  color: #F2E8DA;
+}
+.brand-name {
+  color: #F2E8DA;
+  font-size: 20px;
+  padding-top: 15px;
+}
+nav {
+  height: 120px;
+}
+.navbar-brand{
+  display: flex;
+}
+@media screen and (min-width: 1200px) {
+  .active{
+    border-bottom: solid 2px ;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .active {
+    background-color: rgba(128, 128, 128, 0.456);
+    padding: 5px;
+    border-radius: 3px;
+  }
+}
